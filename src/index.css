@@ -1,0 +1,68 @@
+.tableOrders__head {
+  display: flex;
+  flex-direction: row;
+}
+.tableOrders__head--item {
+  width: 120px;
+  height: 40px;
+}
+.tableOrders__body {
+  display: flex;
+  flex-direction: column;
+}
+.tableOrders__body--row {
+  display: flex;
+  flex-direction: row;
+}
+.tableOrders__body--col {
+  width: 120px;
+  height: 40px;
+}
+
+.titleArea {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.boxArea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+.invoiceDetail {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.plateList__head {
+  display: flex;
+  flex-direction: row;
+}
+.plateList__head--item {
+  width: 120px;
+  height: 40px;
+}
+.plateList__body {
+  display: flex;
+  flex-direction: column;
+}
+.plateList__body--row {
+  display: flex;
+  flex-direction: row;
+}
+.plateList__body--column {
+  width: 120px;
+  height: 40px;
+}
+
+.centerLoading {
+  margin: 0 auto;
+  height: calc(100vh - 200px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
